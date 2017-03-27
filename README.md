@@ -1,7 +1,7 @@
 # Tugas-2
 <?xml version="1.0" encoding="UTF-8"?> //untuk memulai pembuatan sintak xml
 <!DOCTYPE logbarang SYSTEM "logbarang.dtd"> //menyatakan bahwa dtd dengan logbarang sudah terhubung dengan xmlnya.
-<<logbarang> 
+<logbarang> 
 <barang>  
 	<kode>M1112</kode>
  	<satuan>pc</satuan>  
@@ -29,11 +29,11 @@
 		<kodewil>300</kodewil>  
 	</tujuan> 
 </barang>   
-</logbarang>>
+</logbarang>
 
 
 
-<<?xml encoding="UTF-8"?>
+<?xml encoding="UTF-8"?>
 
 <!ELEMENT logbarang (barang)+> //Dalam element dtd logbarang terdapat element dengan nama "barang". Terdapat tanda "+" ini menyatakan bahwa data pada element barang harus ada minimal 1 atau lebih.
 <!ATTLIST logbarang
